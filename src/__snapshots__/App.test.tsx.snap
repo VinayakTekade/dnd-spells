@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches App snapshot 1`] = `
+Array [
+  <div
+    data-testid="header"
+  >
+    <nav
+      className="navbar navbar-expand-md navbar-light navbar-dark bg-dark fixed-top"
+      full={true}
+    >
+      <div
+        className="container-fluid"
+      >
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          <img
+            alt="logo"
+            src="./dnd.jpg"
+            style={
+              Object {
+                "height": 40,
+                "margin": "0 15px",
+                "width": 40,
+              }
+            }
+          />
+          DnD Spells
+        </a>
+        <button
+          aria-label="Toggle navigation"
+          className="navbar-toggler"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          className="collapse navbar-collapse"
+          style={Object {}}
+        >
+          <ul
+            className="navigation ms-auto navbar-nav"
+            data-testid="navigation"
+          >
+            <li
+              className="nav-item"
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                All Spells
+              </a>
+            </li>
+            <li
+              className="nav-item"
+            >
+              <a
+                href="/favourite"
+                onClick={[Function]}
+              >
+                Favourites
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>,
+  <div
+    className="main pb-5"
+  >
+    <h1
+      className="display-2 text-center pb-3"
+    >
+      All Spells
+    </h1>
+    <div
+      className="spell-list px-5 py-2"
+    >
+      <div
+        className="spinner-border-sm spinner-border"
+        role="status"
+      >
+        <span
+          className="visually-hidden"
+        >
+          Loading...
+        </span>
+      </div>
+      <span
+        className="spell-loading"
+        data-testid="loading"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>,
+  <div
+    className="footer card bg-dark"
+    data-testid="footer"
+    style={
+      Object {
+        "borderRadius": "0px",
+        "bottom": "0px",
+        "position": "fixed",
+      }
+    }
+  >
+    <div
+      className="img-container"
+    >
+      <img
+        alt="Card image cap"
+        className="card-img-bottom"
+        src="./dnd-logo-footer.png"
+      />
+    </div>
+  </div>,
+]
+`;

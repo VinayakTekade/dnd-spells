@@ -1,0 +1,19 @@
+.main {
+	margin: 100px 0;
+}
+.spell-detail {
+	margin: auto;
+	width: 70%;
+	min-width: 360px;
+	padding: 20px 10px;
+}
+
+.spell-detail-not-found {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.spell-details {
+	padding: 0 10px;
+}

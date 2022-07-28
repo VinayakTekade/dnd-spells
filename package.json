@@ -1,0 +1,69 @@
+{
+  "name": "dnd-spells",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "github:fortawesome/react-fontawesome",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^16.11.44",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "bootstrap": "^5.2.0",
+    "fetch-mock": "^9.11.0",
+    "fortawesome": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-bootstrap-icons": "^1.8.4",
+    "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^9.1.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "typescript": "^4.7.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run test -- --watchAll=false && npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "resetMocks": false
+  },
+  "devDependencies": {
+    "@types/react-test-renderer": "^18.0.0",
+    "gh-pages": "^4.0.0",
+    "jest-fetch-mock": "^3.0.3",
+    "react-test-renderer": "^18.2.0"
+  }
+}

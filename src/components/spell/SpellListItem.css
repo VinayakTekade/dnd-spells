@@ -1,0 +1,17 @@
+.spell-li {
+	text-align: left;
+	color: black;
+	cursor: pointer;
+}
+.spell-li:hover {
+	background-color: #efefef;
+}
+
+.spell-name {
+	text-decoration: none;
+	color: black;
+}
+
+.spell-li > .fav-icon {
+	float: right;
+}

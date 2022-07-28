@@ -1,0 +1,14 @@
+.main {
+	margin: 100px 0;
+}
+.spell-list {
+	margin: auto;
+	min-width: 275px;
+	width: 70%;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+}
+.spell-not-found {
+	padding: 10px;
+	font-size: 18px;
+}
